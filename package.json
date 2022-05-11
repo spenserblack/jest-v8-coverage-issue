@@ -1,0 +1,17 @@
+{
+  "name": "jest-v8-coverage-issue",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test-v8": "jest -c ./jest.config.v8.js",
+    "test-babel": "jest -c ./jest.config.babel.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  }
+}
