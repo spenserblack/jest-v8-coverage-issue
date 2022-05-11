@@ -7,7 +7,7 @@ export default function asBool(answer: Answer): boolean {
     case 'no':
       return false;
     /* istanbul ignore next */
-    /* c8 ignore next */
+    /* c8 ignore next 2 */
     default:
       throw new Error('unreachable');
   }
